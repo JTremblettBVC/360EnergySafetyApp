@@ -10,7 +10,8 @@
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:layout_marginEnd="8dp"
+        android:text="@string/login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -18,54 +19,61 @@
         android:id="@+id/txtHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select Task"
+        android:text="@string/select_task"
         android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintBottom_toTopOf="@+id/btnFDoS"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="0dp"
+    <Button
+        android:id="@+id/btnFDoS"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:baselineAligned="false"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/first_day_on_site"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        tools:layout_editor_absoluteY="194dp" />
 
-        <Button
-            android:id="@+id/btnFDoS"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="First Day On Site" />
+    <Button
+        android:id="@+id/btnThroughout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/throughout_project"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFDoS" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnThroughout"
+        tools:layout_editor_absoluteX="1dp">
 
         <Button
             android:id="@+id/btnPlanningOffice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pre-Planning (Office)" />
-
-        <Button
-            android:id="@+id/btnPost"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Post Project" />
+            android:text="@string/pre_planning_office"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="112dp" />
 
         <Button
             android:id="@+id/btnPlanningField"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pre-planning (FIeld)" />
+            android:text="@string/pre_planning_field"
+            app:layout_constraintTop_toBottomOf="@+id/btnPlanningOffice"
+            tools:layout_editor_absoluteX="112dp" />
 
         <Button
-            android:id="@+id/btnThroughout"
+            android:id="@+id/btnPost"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Throughout Project" />
-    </LinearLayout>
+            android:text="@string/post_project"
+            app:layout_constraintTop_toBottomOf="@+id/btnPlanningField"
+            tools:layout_editor_absoluteX="141dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

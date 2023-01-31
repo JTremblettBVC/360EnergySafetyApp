@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">360EnergySafetyApp</string>
+    <string name="first_day_on_site">First Day On Site</string>
+    <string name="post_project">Post Project</string>
+    <string name="throughout_project">Throughout Project</string>
+    <string name="pre_planning_office">Pre-Planning (Office)</string>
+    <string name="pre_planning_field">Pre-planning (Field)</string>
+    <string name="select_task">Select Task</string>
+    <string name="login">Login</string>
 </resources>
