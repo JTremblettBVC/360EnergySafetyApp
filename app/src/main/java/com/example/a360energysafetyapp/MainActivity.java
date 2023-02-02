@@ -8,17 +8,17 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-
+    private Button move;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       Button btnFD = (Button)findViewById(R.id.btnFDoS);
-        btnFD.setOnClickListener(new View.OnClickListener() {
+       move=findViewById(R.id.btnFDoS);
+        move.setOnClickListener(new View.OnClickListener() {
            @Override
-           public void onClick(View view) {
+           public void onClick(View v) {
                Intent intent = new Intent(MainActivity.this, FirstDayOnSite.class);
                startActivity(intent);
             }
