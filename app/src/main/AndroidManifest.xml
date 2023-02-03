@@ -12,6 +12,9 @@
         android:theme="@style/Theme.360EnergySafetyApp"
         tools:targetApi="31">
         <activity
+            android:name=".ATV_OHVInspection"
+            android:exported="false" />
+        <activity
             android:name=".FirstDayOnSite"
             android:exported="false" />
         <activity
@@ -24,6 +27,5 @@
             </intent-filter>
         </activity>
     </application>
-
 
 </manifest>

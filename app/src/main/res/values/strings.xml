@@ -12,4 +12,7 @@
     <string name="gas_monitor_bump_test">Gas Monitor Bump Test</string>
     <string name="atv_ohv_inspection">ATV/OHV Inspection</string>
     <string name="field_level_hazard">Field Level Hazard</string>
+    <string name="pre_use_inspection">PRE-USE INSPECTION</string>
+    <string name="date">Date:</string>
+    <string name="location">Location:</string>
 </resources>

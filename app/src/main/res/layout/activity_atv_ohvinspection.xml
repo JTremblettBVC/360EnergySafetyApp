@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ATV_OHVInspection">
+
+    <TableRow
+        android:background="#53C1E9"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRE-USE INSPECTION"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:background="#ACA6A6"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:text="Inspection Item"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:text="Yes"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:text="No"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:text="N/A"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="Comments"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Debris cleaned from undercarriage?"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+
+        <TextView
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:text="Engine stop switch stops engine?"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brakes operational?*"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fuel level acceptable?"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stirring acceptable?*"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Engine oil level acceptable?"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Throttle operational?*"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tire/track condition acceptable? Wheel lugs tight?*"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light and reflectors in good condition and operational?"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tailights operational?"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signal light operational(if applicable)?"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tie down straps in good condition (if required)?"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Free from leaks?*"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rubber axle boots in good condition?"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suspension in good condition?*"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Differential gear oil level acceptable?"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tire pressure acceptable?"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rims in good condition?"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coolant level acceptable?"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hoses in good condition?*"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seatbelts operational (if applicable)?"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Air filter in good condition?"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Battery and cables in good condition?*"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Starter cord recoil functional (if applicable)?"
+            android:textSize="10sp" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signs of physical damage (in comments section identify where damage is)"
+            android:textSize="10sp" />
+    </TableRow>
+
+
+
+
+
+
+
+
+
+</TableLayout>
