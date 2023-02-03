@@ -7,5 +7,9 @@
     <string name="pre_planning_field">Pre-planning (Field)</string>
     <string name="select_task">Select Task</string>
     <string name="login">Login</string>
-    <string name="welcome">Welcome</string>
+    <string name="print">Print</string>
+    <string name="explore_the_documents_in_this_category">Explore the documents in this category</string>
+    <string name="gas_monitor_bump_test">Gas Monitor Bump Test</string>
+    <string name="atv_ohv_inspection">ATV/OHV Inspection</string>
+    <string name="field_level_hazard">Field Level Hazard</string>
 </resources>
