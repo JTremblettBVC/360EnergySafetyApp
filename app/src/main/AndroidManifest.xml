@@ -15,6 +15,12 @@
             android:name=".ATV_OHVInspection"
             android:exported="false" />
         <activity
+            android:name=".VehicleSafetyKitChecklist"
+            android:exported="false" />
+        <activity
+            android:name=".PrePlanningFieldLevel"
+            android:exported="false" />
+        <activity
             android:name=".FirstDayOnSite"
             android:exported="false" />
         <activity

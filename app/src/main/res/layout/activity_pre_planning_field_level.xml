@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrePlanningFieldLevel">
+
+    <Button
+        android:id="@+id/wajmPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#53C1E9"
+        android:text="Working Alone / Journey Management Plan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246"
+        tools:ignore="HardcodedText,MissingConstraints,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/nopContractor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#53C1E9"
+        android:text="@string/notice_of_prime_contractor_wellsite_supervisor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751"
+        tools:ignore="MissingConstraints,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/werPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#53C1E9"
+        android:text="@string/worksite_emergency_response_plan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881"
+        tools:ignore="MissingConstraints,VisualLintOverlap" />
+
+    <Button
+        android:id="@+id/vskChecklist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#53C1E9"
+        android:text="@string/vehicle_safety_kit_checklist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="VisualLintOverlap" />
+
+    <Button
+        android:id="@+id/fepControlPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#53C1E9"
+        android:text="@string/fire_explosion_prevention_control_plan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614"
+        tools:ignore="MissingConstraints,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/preInspection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#53C1E9"
+        android:text="@string/pre_trip_inspection"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.372"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/ppfl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pre_planning_field_level"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

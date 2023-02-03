@@ -2,17 +2,13 @@ package com.example.a360energysafetyapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 
-public class FirstDayOnSite extends AppCompatActivity{
+public class VehicleSafetyKitChecklist extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_first_day_on_site);
-
+        setContentView(R.layout.activity_vehicle_safety_kit_checklist);
     }
 }

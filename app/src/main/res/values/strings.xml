@@ -12,7 +12,10 @@
     <string name="gas_monitor_bump_test">Gas Monitor Bump Test</string>
     <string name="atv_ohv_inspection">ATV/OHV Inspection</string>
     <string name="field_level_hazard">Field Level Hazard</string>
-    <string name="pre_use_inspection">PRE-USE INSPECTION</string>
-    <string name="date">Date:</string>
-    <string name="location">Location:</string>
+    <string name="notice_of_prime_contractor_wellsite_supervisor">Notice of Prime Contractor Wellsite Supervisor</string>
+    <string name="worksite_emergency_response_plan">Worksite Emergency Response Plan</string>
+    <string name="vehicle_safety_kit_checklist">Vehicle Safety Kit Checklist</string>
+    <string name="fire_explosion_prevention_control_plan">Fire Explosion Prevention Control Plan</string>
+    <string name="pre_trip_inspection">Pre Trip Inspection</string>
+    <string name="pre_planning_field_level">Pre Planning Field Level</string>
 </resources>
