@@ -8,16 +8,20 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private Button move;
+    //private Button move;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       move=findViewById(R.id.btnFDoS);
-       move = findViewById(R.id.btnPlanningField);
-        move.setOnClickListener(new View.OnClickListener() {
+       //Buttons
+       Button btnFDoS = findViewById(R.id.btnFDoS);
+       Button btnPlanningField = findViewById(R.id.btnPlanningField);
+       Button btnThroughout = findViewById(R.id.btnThroughout);
+       Button btnPost = findViewById(R.id.btnPost);
+
+        btnFDoS.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
                Intent intent = new Intent(MainActivity.this, FirstDayOnSite.class);
@@ -25,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        move.setOnClickListener(new View.OnClickListener() {
+        btnPlanningField.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, PrePlanningFieldLevel.class);
@@ -33,8 +37,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btnThroughout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ThroughoutProject.class);
+                startActivity(intent);
+            }
+        });
 
-
+        btnPost.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, PostProjectWA.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

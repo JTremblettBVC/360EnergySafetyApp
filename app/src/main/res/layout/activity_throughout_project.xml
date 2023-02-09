@@ -4,14 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FirstDayOnSite">
-
+    tools:context=".ThroughoutProject">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/first_day_on_site"
+        android:text="Throughout Project"
         android:textColor="#000000"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,44 +22,28 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btn_FLHA_Hazard"
+        android:id="@+id/hazIdCard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#53C1E9"
-        android:onClick="upLoadFile"
-        android:text="@string/field_level_hazard"
+        android:text="Hazard Identification Cards"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.372"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="0.432" />
 
     <Button
-        android:id="@+id/btn_GasMonitorBumpTest"
+        android:id="@+id/incidentReport"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#53C1E9"
-        android:text="@string/gas_monitor_bump_test"
+        android:text="Incident Reports"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
-        tools:ignore="VisualLintOverlap" />
-
-    <Button
-        android:id="@+id/btn_ATV_OHVInspection"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#53C1E9"
-        android:text="@string/atv_ohv_inspection"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.625"
-        tools:ignore="MissingConstraints,VisualLintButtonSize" />
+        app:layout_constraintVertical_bias="0.569" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
